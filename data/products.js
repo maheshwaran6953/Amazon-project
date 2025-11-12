@@ -1,4 +1,4 @@
-import { deliveryOptions } from '../../data/deliveryOptions.js';
+import { deliveryOptions } from './deliveryOptions.js';
 
 export function getProduct(productID){
   let matchedProduct = products.find(product => product.id === productID);
